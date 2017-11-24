@@ -1,0 +1,9 @@
+CREATE SCHEMA `servlettest` DEFAULT CHARACTER SET utf8 ;
+
+CREATE TABLE `servlettest`.`winners` (
+  `id` INT(5) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `tries` INT(2) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;

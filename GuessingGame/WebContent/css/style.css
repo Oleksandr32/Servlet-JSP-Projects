@@ -1,0 +1,53 @@
+.container {
+	width: 550px;
+    margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.instruction {
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.input {
+	margin-top: 20px;
+	padding: 30px 30px 10px 30px;
+	border: 5px solid #FF6A6A;
+}
+
+.hide {
+	display: none;
+}
+
+#result {
+	height: 250px;
+	margin-top: 20px;
+	border: 5px solid;
+	font-size: 19px;
+	padding: 10px;
+}
+
+#triesField {
+	width: 25px;
+	margin: 0px 5px 0px 5px;
+}
+
+#lose {
+	margin-top: 25px;
+}
+
+table {
+	width: 350px;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+th, td {
+	border: 1px solid #000000;
+}
